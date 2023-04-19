@@ -9,6 +9,7 @@
 
 # PROJETOS PUBLICOS:
 
+[![Group 39](https://user-images.githubusercontent.com/60229463/233164550-1601bb5b-99a2-45aa-b360-feffc26eeb32.png)](https://github.com/Rozdrigo/tiktok)
 [![Group 29](https://user-images.githubusercontent.com/60229463/233153010-4135f294-6720-4e51-b2cf-aad6fcdbc2ca.png)](https://github.com/Rozdrigo/fractal_tree)
 [![Group 33](https://user-images.githubusercontent.com/60229463/233153015-6bbd4630-deaf-47cc-907c-5b1730fc21f8.png)](https://github.com/Rozdrigo/mine_world_static)
 [![Group 36](https://user-images.githubusercontent.com/60229463/233153017-bb30930c-0191-4512-ad92-4339087ba735.png)](https://github.com/Rozdrigo/presentation_aid)
