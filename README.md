@@ -1,21 +1,87 @@
-![Group 97](https://user-images.githubusercontent.com/60229463/233157782-73997844-03f4-411f-b517-6b937bea71dd.png)
+<p align="center">
+  <img src="assets/banner.svg" alt="Rodrigo Coelho — Engenheiro de Software Fullstack" width="100%"/>
+</p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/rodrigo-coelho-4b3a3b1ab/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:rodrigocoelho236@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"/></a>
+  <a href="https://rodrigoscoelho.vercel.app/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/></a>
+</p>
 
+## 🧑‍💻 Sobre mim
 
-# SOBRE MIM:
+Sou engenheiro de software com **mais de 5 anos** construindo sistemas de ponta a ponta, do backend à interface, em domínios onde **erro custa caro**: assinatura eletrônica com validade jurídica, cartões e crédito, investimentos e logística.
 
-![Sobre mim](https://user-images.githubusercontent.com/60229463/233152408-1c954cc8-2d7a-46b1-867d-1c764cfbe005.png)
-![Experiencia e tecnologias](https://user-images.githubusercontent.com/60229463/233152454-a7cc5bbd-af18-409b-8de8-2efc8537d88b.png)
+Trabalho principalmente com **microsserviços e APIs REST em Java/Spring Boot, .NET/C# e Go**, rodando em **Kubernetes** na **GCP e AWS**. Aplico **Clean Architecture, DDD, SOLID e Design Patterns** e costumo atuar perto de produto e negócio para transformar necessidades em soluções escaláveis.
 
-# PROJETOS PUBLICOS:
+<p align="center">
+  <img src="assets/highlights.svg" alt="5+ anos · 6 empresas · 4 linguagens de backend · 1º lugar no Hackathon Certisign" width="100%"/>
+</p>
 
-[![Group 29](https://user-images.githubusercontent.com/60229463/233153010-4135f294-6720-4e51-b2cf-aad6fcdbc2ca.png)](https://github.com/Rozdrigo/fractal_tree)
-[![Group 33](https://user-images.githubusercontent.com/60229463/233153015-6bbd4630-deaf-47cc-907c-5b1730fc21f8.png)](https://github.com/Rozdrigo/mine_world_static)
-[![Group 36](https://user-images.githubusercontent.com/60229463/233153017-bb30930c-0191-4512-ad92-4339087ba735.png)](https://github.com/Rozdrigo/presentation_aid)
-[![Group 38](https://user-images.githubusercontent.com/60229463/233153019-461eb619-19e3-4e50-8030-bbdfca306963.png)](https://github.com/Rozdrigo/trends__br)
-[![Group 26](https://user-images.githubusercontent.com/60229463/233153025-8fb45b5f-16ba-41d5-b96d-7264810d5115.png)](https://github.com/Rozdrigo/python)
-[![Group 39](https://user-images.githubusercontent.com/60229463/233164550-1601bb5b-99a2-45aa-b360-feffc26eeb32.png)](https://github.com/Rozdrigo/tiktok)
+## 🛠️ Stack
 
-# PRINCIPAIS PROJETOS:
+<table>
+  <tr>
+    <td><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=java,spring,go,cs,dotnet,nodejs,ts,py&theme=dark" alt="Backend"/><br/><sub>Spring Security · Spring Data JPA · Quarkus · Hibernate · ASP.NET Core · Entity Framework · Maven · Gradle</sub></td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,angular,js&theme=dark" alt="Frontend"/><br/><sub>React Native</sub></td>
+  </tr>
+  <tr>
+    <td><b>Cloud e DevOps</b></td>
+    <td><img src="https://skillicons.dev/icons?i=kubernetes,docker,gcp,aws,githubactions,gitlab,jenkins&theme=dark" alt="Cloud e DevOps"/><br/><sub>GKE · EKS · ECS · EC2 · RDS · SQS · SonarQube · Dynatrace</sub></td>
+  </tr>
+  <tr>
+    <td><b>Dados</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb&theme=dark" alt="Bancos de dados"/><br/><sub>SQL Server · SQL avançado</sub></td>
+  </tr>
+</table>
 
-![Group 90](https://user-images.githubusercontent.com/60229463/233155359-c8bea3db-fed7-46d2-83dc-9ed285e010e3.png)
+## 💼 Experiência
+
+<p align="center">
+  <img src="assets/timeline.svg" alt="Linha do tempo: Certisign, FictorPay, Grupo Fictor, Exudus Tech, LinkedBy, Flimed" width="100%"/>
+</p>
+
+<details>
+<summary><b>Ver detalhes de cada experiência</b></summary>
+
+**Certisign** — Desenvolvedor Fullstack · *jan/2026 – atual*  
+Plataforma de assinatura eletrônica e certificação digital. Desenho e evolução de APIs e microsserviços em .NET/C# e Java/Spring Boot, frontends em Next.js/React, deploy na GCP e observabilidade com Dynatrace. Também participo de code reviews e da definição de padrões de desenvolvimento. 🏆 1º lugar no primeiro Hackathon da empresa.
+
+**FictorPay** — Desenvolvedor Fullstack · *fev/2024 – jan/2026*  
+Plataforma de meios de pagamento (cartões e crédito). Microsserviços em Java (Spring Boot e Quarkus), Go e C#, integração com adquirentes como Cielo e Phoebus, modernização de legados para arquitetura distribuída, Kubernetes na AWS e GCP, e evolução das pipelines de CI/CD.
+
+**Grupo Fictor** — Desenvolvedor Fullstack · *fev/2024 – abr/2025*  
+Sistemas de investimentos e private equity. APIs em Java/Spring Boot, C#/ASP.NET e Node.js, modernização de legados com DDD e automação de processos internos.
+
+**Exudus Tech** — Desenvolvedor Fullstack · *nov/2023 – fev/2024*  
+Automações e robôs com Node.js e Python, web scraping e integrações com APIs corporativas.
+
+**LinkedBy** — Desenvolvedor Fullstack · *fev/2022 – nov/2023*  
+WMS para galpões e centros de distribuição com ASP.NET Core, Entity Framework e SQL Server: novas funcionalidades, integrações e otimização de consultas.
+
+**Flimed** — Desenvolvedor Fullstack · *jan/2021 – mar/2022*  
+Aplicações web e mobile de telemedicina com React, React Native e APIs em Node.js.
+
+</details>
+
+## 🎓 Formação e certificações
+
+- **Análise e Desenvolvimento de Sistemas** — Universidade Anhembi Morumbi
+- **Sistemas de Informação** — Universidade Federal do Ceará (UFC)
+- **Matemática** — UNINTER (em andamento)
+- **Certificações:** PSPO I (Professional Scrum Product Owner) · Software Engineering · SQL (Advanced) · JavaScript (Intermediate)
+
+## 📂 Projetos pessoais
+
+<p align="center">
+  <a href="https://github.com/Rozdrigo/PaymentAPI"><img src="assets/proj-paymentapi.svg" alt="PaymentAPI" width="49%"/></a>
+  <a href="https://github.com/Rozdrigo/knex_masterclass"><img src="assets/proj-knex-masterclass.svg" alt="knex_masterclass" width="49%"/></a>
+  <a href="https://github.com/Rozdrigo/trends__br"><img src="assets/proj-trends--br.svg" alt="trends__br" width="49%"/></a>
+  <a href="https://github.com/Rozdrigo/fractal_tree"><img src="assets/proj-fractal-tree.svg" alt="fractal_tree" width="49%"/></a>
+</p>
+
+<p align="center"><sub>A maior parte do meu trabalho profissional fica em repositórios privados das empresas. Os projetos acima são estudos e experimentos pessoais.</sub></p>
