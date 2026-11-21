@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="580" viewBox="0 0 1000 580">
+<style>
+.f{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+.m{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+.fade{animation:fade .8s ease both}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+
+</style>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1020"/>
+    <stop offset="0.55" stop-color="#111a33"/>
+    <stop offset="1" stop-color="#1b1240"/>
+  </linearGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <radialGradient id="glow1" cx="0.15" cy="0.2" r="0.5">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="0.9" cy="0.9" r="0.55">
+    <stop offset="0" stop-color="#a78bfa" stop-opacity="0.25"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+  </pattern>
+</defs>
+
+<rect width="1000" height="580" rx="18" fill="url(#bg)"/>
+<rect width="1000" height="580" rx="18" fill="url(#grid)"/>
+<rect width="1000" height="580" rx="18" fill="url(#glow1)"/>
+<rect width="1000" height="580" rx="18" fill="url(#glow2)"/>
+<rect x="0.5" y="0.5" width="999" height="579" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+<line x1="70" y1="50" x2="70" y2="510" stroke="#3b4a6b" stroke-width="3"/>
+<g class="fade" style="animation-delay:0.00s">
+<circle cx="70" cy="50" r="9" fill="none" stroke="#22d3ee" stroke-width="2"><animate attributeName="r" values="9;18;9" dur="2.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.8;0;0.8" dur="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="70" cy="50" r="9" fill="#0b1020" stroke="#22d3ee" stroke-width="3"/>
+<circle cx="70" cy="50" r="3.5" fill="#22d3ee"/>
+<text x="110" y="40" class="f" font-size="22" font-weight="700" fill="#f8fafc">Certisign</text>
+<rect x="247.5" y="23" width="58" height="22" rx="11" fill="#22d3ee" fill-opacity="0.15"/><text x="276.5" y="38" class="f" font-size="12" font-weight="700" fill="#22d3ee" text-anchor="middle">ATUAL</text>
+<text x="950" y="40" class="f" font-size="14" fill="#22d3ee" text-anchor="end" font-weight="600">jan/2026 – atual</text>
+<text x="110" y="66" class="f" font-size="15" fill="#cbd5e1">Assinatura eletrônica e certificação digital</text>
+<text x="110" y="88" class="m" font-size="13" fill="#8391ab">.NET/C# · Java/Spring · Next.js · GCP · Dynatrace</text>
+</g>
+<g class="fade" style="animation-delay:0.12s">
+
+<circle cx="70" cy="142" r="9" fill="#0b1020" stroke="#a78bfa" stroke-width="3"/>
+<circle cx="70" cy="142" r="3.5" fill="#a78bfa"/>
+<text x="110" y="132" class="f" font-size="22" font-weight="700" fill="#f8fafc">FictorPay</text>
+
+<text x="950" y="132" class="f" font-size="14" fill="#a78bfa" text-anchor="end" font-weight="600">fev/2024 – jan/2026</text>
+<text x="110" y="158" class="f" font-size="15" fill="#cbd5e1">Meios de pagamento: cartões e crédito, Cielo e Phoebus</text>
+<text x="110" y="180" class="m" font-size="13" fill="#8391ab">Java · Quarkus · Go · C# · Kubernetes · AWS/GCP</text>
+</g>
+<g class="fade" style="animation-delay:0.24s">
+
+<circle cx="70" cy="234" r="9" fill="#0b1020" stroke="#818cf8" stroke-width="3"/>
+<circle cx="70" cy="234" r="3.5" fill="#818cf8"/>
+<text x="110" y="224" class="f" font-size="22" font-weight="700" fill="#f8fafc">Grupo Fictor</text>
+
+<text x="950" y="224" class="f" font-size="14" fill="#818cf8" text-anchor="end" font-weight="600">fev/2024 – abr/2025</text>
+<text x="110" y="250" class="f" font-size="15" fill="#cbd5e1">Investimentos e private equity, modernização de legados</text>
+<text x="110" y="272" class="m" font-size="13" fill="#8391ab">Java/Spring · C#/ASP.NET · Node.js · DDD</text>
+</g>
+<g class="fade" style="animation-delay:0.36s">
+
+<circle cx="70" cy="326" r="9" fill="#0b1020" stroke="#4ade80" stroke-width="3"/>
+<circle cx="70" cy="326" r="3.5" fill="#4ade80"/>
+<text x="110" y="316" class="f" font-size="22" font-weight="700" fill="#f8fafc">Exudus Tech</text>
+
+<text x="950" y="316" class="f" font-size="14" fill="#4ade80" text-anchor="end" font-weight="600">nov/2023 – fev/2024</text>
+<text x="110" y="342" class="f" font-size="15" fill="#cbd5e1">Automação de processos, robôs e web scraping</text>
+<text x="110" y="364" class="m" font-size="13" fill="#8391ab">Node.js · Python · React</text>
+</g>
+<g class="fade" style="animation-delay:0.48s">
+
+<circle cx="70" cy="418" r="9" fill="#0b1020" stroke="#fbbf24" stroke-width="3"/>
+<circle cx="70" cy="418" r="3.5" fill="#fbbf24"/>
+<text x="110" y="408" class="f" font-size="22" font-weight="700" fill="#f8fafc">LinkedBy</text>
+
+<text x="950" y="408" class="f" font-size="14" fill="#fbbf24" text-anchor="end" font-weight="600">fev/2022 – nov/2023</text>
+<text x="110" y="434" class="f" font-size="15" fill="#cbd5e1">WMS para galpões e centros de distribuição</text>
+<text x="110" y="456" class="m" font-size="13" fill="#8391ab">ASP.NET Core · Entity Framework · SQL Server</text>
+</g>
+<g class="fade" style="animation-delay:0.60s">
+
+<circle cx="70" cy="510" r="9" fill="#0b1020" stroke="#f472b6" stroke-width="3"/>
+<circle cx="70" cy="510" r="3.5" fill="#f472b6"/>
+<text x="110" y="500" class="f" font-size="22" font-weight="700" fill="#f8fafc">Flimed</text>
+
+<text x="950" y="500" class="f" font-size="14" fill="#f472b6" text-anchor="end" font-weight="600">jan/2021 – mar/2022</text>
+<text x="110" y="526" class="f" font-size="15" fill="#cbd5e1">Telemedicina web e mobile</text>
+<text x="110" y="548" class="m" font-size="13" fill="#8391ab">React · React Native · Node.js</text>
+</g>
+
+</svg>
