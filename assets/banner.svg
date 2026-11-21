@@ -1,87 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400">
 <style>
-.f{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
-.m{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
-.fade{animation:fade .8s ease both}
-@keyframes fade{from{opacity:0}to{opacity:1}}
-.blink{animation:blink 1.1s steps(1) infinite}
-@keyframes blink{50%{opacity:0}}
-
+text{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.a{animation:up .45s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 </style>
+<rect x=".5" y=".5" width="999" height="399" rx="16" fill="#ffffff" stroke="#e5e5e5"/>
 
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0b1020"/>
-    <stop offset="0.55" stop-color="#111a33"/>
-    <stop offset="1" stop-color="#1b1240"/>
-  </linearGradient>
-  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#22d3ee"/>
-    <stop offset="1" stop-color="#a78bfa"/>
-  </linearGradient>
-  <radialGradient id="glow1" cx="0.15" cy="0.2" r="0.5">
-    <stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/>
-    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="glow2" cx="0.9" cy="0.9" r="0.55">
-    <stop offset="0" stop-color="#a78bfa" stop-opacity="0.25"/>
-    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
-  </radialGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
-  </pattern>
-</defs>
-
-<rect width="1000" height="390" rx="18" fill="url(#bg)"/>
-<rect width="1000" height="390" rx="18" fill="url(#grid)"/>
-<rect width="1000" height="390" rx="18" fill="url(#glow1)"/>
-<rect width="1000" height="390" rx="18" fill="url(#glow2)"/>
-<rect x="0.5" y="0.5" width="999" height="389" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-
-<!-- left -->
-<text x="56" y="92" class="f" font-size="15" fill="#22d3ee" letter-spacing="3" font-weight="600">OLÁ, EU SOU O</text>
-<text x="54" y="150" class="f" font-size="54" font-weight="800" fill="#f8fafc">Rodrigo Coelho</text>
-<rect x="56" y="168" width="120" height="5" rx="2.5" fill="url(#acc)"/>
-<text x="56" y="210" class="f" font-size="22" font-weight="600" fill="#e2e8f0">Engenheiro de Software · Fullstack</text>
-<text x="56" y="242" class="f" font-size="16" fill="#94a3b8">Microsserviços e APIs em Java, Spring Boot, .NET e Go</text>
-<text x="56" y="266" class="f" font-size="16" fill="#94a3b8">Assinatura eletrônica · Certificação digital · Pagamentos</text>
-<g transform="translate(56,296)">
-  <rect width="226" height="34" rx="17" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.5"/>
-  <text x="113" y="22" class="f" font-size="14" font-weight="700" fill="#fcd34d" text-anchor="middle">🏆 1º Hackathon Certisign</text>
+<g class="a" style="animation-delay:0.00s">
+  <rect x="380.5" y="64.5" width="239" height="31" rx="15.5" fill="none" stroke="#e5e5e5"/>
+  <circle cx="400" cy="80" r="4" fill="#000000"/>
+  <text x="508" y="85" font-size="13" fill="#6b6b6b" text-anchor="middle">Engenheiro de Software</text>
 </g>
-<g transform="translate(294,296)">
-  <rect width="150" height="34" rx="17" fill="#22d3ee" fill-opacity="0.10" stroke="#22d3ee" stroke-opacity="0.45"/>
-  <text x="75" y="22" class="f" font-size="14" font-weight="600" fill="#67e8f9" text-anchor="middle">📍 Osasco – SP</text>
-</g>
-
-<!-- editor window -->
-<g>
-  <rect x="510" y="48" width="436" height="300" rx="12" fill="#0a0f1d" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.10"/>
-  <rect x="510" y="48" width="436" height="34" rx="12" fill="#ffffff" fill-opacity="0.04"/>
-  <circle cx="532" cy="65" r="6" fill="#f87171"/>
-  <circle cx="552" cy="65" r="6" fill="#fbbf24"/>
-  <circle cx="572" cy="65" r="6" fill="#4ade80"/>
-  <text x="728" y="70" class="m" font-size="12" fill="#64748b" text-anchor="middle">Rodrigo.java</text>
-  <text class="m fade" style="animation-delay:0.30s" x="560" y="112" font-size="14.5" fill="#e2e8f0"><tspan fill="#c084fc">@RestController</tspan></text>
-<text x="536" y="112" class="m" font-size="12" fill="#475569" text-anchor="end">1</text>
-<text class="m fade" style="animation-delay:0.42s" x="560" y="136" font-size="14.5" fill="#e2e8f0"><tspan fill="#c084fc">public class</tspan> <tspan fill="#fde68a">Rodrigo</tspan> {</text>
-<text x="536" y="136" class="m" font-size="12" fill="#475569" text-anchor="end">2</text>
-<text class="m fade" style="animation-delay:0.54s" x="582" y="160" font-size="14.5" fill="#e2e8f0"><tspan fill="#c084fc">String</tspan> role = <tspan fill="#86efac">"Software Engineer"</tspan>;</text>
-<text x="536" y="160" class="m" font-size="12" fill="#475569" text-anchor="end">3</text>
-<text class="m fade" style="animation-delay:0.66s" x="582" y="184" font-size="14.5" fill="#e2e8f0"><tspan fill="#c084fc">String</tspan> at = <tspan fill="#86efac">"Certisign"</tspan>;</text>
-<text x="536" y="184" class="m" font-size="12" fill="#475569" text-anchor="end">4</text>
-<text class="m fade" style="animation-delay:0.78s" x="582" y="208" font-size="14.5" fill="#e2e8f0"><tspan fill="#c084fc">List</tspan>&lt;String&gt; stack = <tspan fill="#7dd3fc">List.of</tspan>(</text>
-<text x="536" y="208" class="m" font-size="12" fill="#475569" text-anchor="end">5</text>
-<text class="m fade" style="animation-delay:0.90s" x="604" y="232" font-size="14.5" fill="#e2e8f0"><tspan fill="#86efac">"Java"</tspan>, <tspan fill="#86efac">"Spring"</tspan>, <tspan fill="#86efac">".NET"</tspan>, <tspan fill="#86efac">"Go"</tspan>,</text>
-<text x="536" y="232" class="m" font-size="12" fill="#475569" text-anchor="end">6</text>
-<text class="m fade" style="animation-delay:1.02s" x="604" y="256" font-size="14.5" fill="#e2e8f0"><tspan fill="#86efac">"React"</tspan>, <tspan fill="#86efac">"Kubernetes"</tspan>);</text>
-<text x="536" y="256" class="m" font-size="12" fill="#475569" text-anchor="end">7</text>
-<text class="m fade" style="animation-delay:1.14s" x="582" y="280" font-size="14.5" fill="#e2e8f0"><tspan fill="#c084fc">boolean</tspan> hackathonWinner = <tspan fill="#fb923c">true</tspan>;</text>
-<text x="536" y="280" class="m" font-size="12" fill="#475569" text-anchor="end">8</text>
-<text class="m fade" style="animation-delay:1.26s" x="560" y="304" font-size="14.5" fill="#e2e8f0">}</text>
-<text x="536" y="304" class="m" font-size="12" fill="#475569" text-anchor="end">9</text>
-
-  <rect class="blink" x="575" y="290" width="9" height="17" fill="#22d3ee"/>
+<text class="a" style="animation-delay:0.06s" x="500" y="178" font-size="76" font-weight="300" letter-spacing="-3" fill="#000000" text-anchor="middle">Rodrigo Coelho</text>
+<text class="a" style="animation-delay:0.12s" x="500" y="228" font-size="19" fill="#6b6b6b" text-anchor="middle">Sistemas backend críticos com Java, Spring Boot, .NET e Go.</text>
+<text class="a" style="animation-delay:0.18s" x="500" y="256" font-size="19" fill="#6b6b6b" text-anchor="middle">Assinatura eletrônica, certificação digital e meios de pagamento.</text>
+<g class="a" style="animation-delay:0.24s">
+  <rect x="300.0" y="296" width="196" height="40" rx="20" fill="#000000"/><text x="398" y="321" font-size="15" font-weight="500" fill="#ffffff" text-anchor="middle">1º Hackathon Certisign</text>
+  <rect x="504.5" y="296.5" width="195" height="39" rx="19.5" fill="none" stroke="#e5e5e5"/><text x="602" y="321" font-size="15" font-weight="500" fill="#000000" text-anchor="middle">Certisign · São Paulo</text>
 </g>
 
 </svg>
