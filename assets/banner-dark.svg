@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400">
+<style>
+text{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.a{animation:up .45s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+</style>
+<rect x=".5" y=".5" width="999" height="399" rx="16" fill="#000000" stroke="#262626"/>
+
+<g class="a" style="animation-delay:0.00s">
+  <rect x="380.5" y="64.5" width="239" height="31" rx="15.5" fill="none" stroke="#262626"/>
+  <circle cx="400" cy="80" r="4" fill="#ffffff"/>
+  <text x="508" y="85" font-size="13" fill="#a3a3a3" text-anchor="middle">Engenheiro de Software</text>
+</g>
+<text class="a" style="animation-delay:0.06s" x="500" y="178" font-size="76" font-weight="300" letter-spacing="-3" fill="#ffffff" text-anchor="middle">Rodrigo Coelho</text>
+<text class="a" style="animation-delay:0.12s" x="500" y="228" font-size="19" fill="#a3a3a3" text-anchor="middle">Sistemas backend críticos com Java, Spring Boot, .NET e Go.</text>
+<text class="a" style="animation-delay:0.18s" x="500" y="256" font-size="19" fill="#a3a3a3" text-anchor="middle">Assinatura eletrônica, certificação digital e meios de pagamento.</text>
+<g class="a" style="animation-delay:0.24s">
+  <rect x="300.0" y="296" width="196" height="40" rx="20" fill="#ffffff"/><text x="398" y="321" font-size="15" font-weight="500" fill="#000000" text-anchor="middle">1º Hackathon Certisign</text>
+  <rect x="504.5" y="296.5" width="195" height="39" rx="19.5" fill="none" stroke="#262626"/><text x="602" y="321" font-size="15" font-weight="500" fill="#ffffff" text-anchor="middle">Certisign · São Paulo</text>
+</g>
+
+</svg>
